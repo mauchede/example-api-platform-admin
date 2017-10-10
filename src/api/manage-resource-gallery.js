@@ -1,5 +1,6 @@
 import { ImageField, ImageInput } from 'admin-on-rest/lib/mui';
 import React from 'react';
+import { headers } from '../services/rest-client';
 
 export default ({ entrypoint, resources }) => {
     const manageFieldImages = field => {
@@ -23,6 +24,7 @@ export default ({ entrypoint, resources }) => {
 
                     return fetch(`${entrypoint}/images`, {
                         body,
+                        headers: new Headers(headers),
                         method: 'POST',
                     })
                         .then(response => response.json())
@@ -72,6 +74,7 @@ export default ({ entrypoint, resources }) => {
 
             return fetch(`${entrypoint}/images`, {
                 body,
+                headers: new Headers(headers),
                 method: 'POST',
             })
                 .then(response => response.json())
