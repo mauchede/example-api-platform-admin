@@ -1,8 +1,6 @@
 # README
 
-Example of bootstrapped `api-platform/admin` project.
-
-## Installation
+Example of upload with `api-platform/admin`.
 
 ### Development environment
 
@@ -69,7 +67,7 @@ docker-compose up -d
 
 ### API
 
-This example can be used with [the dedicated API](https://github.com/mauchede/example-api-platform-api-platform) (see branches `*/bootstrap`)`.
+This example can be used with [the dedicated API](https://github.com/mauchede/example-api-platform-api-platform) (see branches `*/upload`)`.
 
 ## Contributing
 
