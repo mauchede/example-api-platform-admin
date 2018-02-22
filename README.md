@@ -2,10 +2,12 @@
 
 ## Examples
 
+### react-scripts
+
 ### Bootstrap
 
 ```sh
-git checkout example/bootstrap
+git checkout react-scripts/bootstrap
 
 # Follow instruction in README
 ```
@@ -13,7 +15,7 @@ git checkout example/bootstrap
 ### Security
 
 ```sh
-git checkout example/security
+git checkout react-scripts/security
 
 # Follow instruction in README
 ```
@@ -21,7 +23,7 @@ git checkout example/security
 ### Upload
 
 ```sh
-git checkout example/upload
+git checkout react-scripts/upload
 
 # Follow instruction in README
 ```
