@@ -1,0 +1,4 @@
+/.env
+/build
+/docker-compose.*.yaml
+/node_modules

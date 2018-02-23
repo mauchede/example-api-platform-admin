@@ -1,0 +1,14 @@
+# Ignore app files
+
+/.env
+/build
+/docker-compose.*.yaml
+/node_modules
+
+# Ignore git files
+
+**/.git
+
+# Ignore ide files
+
+/.idea
